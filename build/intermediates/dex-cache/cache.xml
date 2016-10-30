@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/elyssakellerman/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/elyssakellerman/libmuse_5.13.0/android/examples/TestLibMuseAndroid/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_ede08f9fff4b5205e6e5f84b756b864c7ed6cf10.jar" />
+    </item>
+    <item
+        jar="/Users/elyssakellerman/libmuse_5.13.0/android/examples/TestLibMuseAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/elyssakellerman/libmuse_5.13.0/android/examples/TestLibMuseAndroid/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_80c1042ad16c2aedf0ff0a63d41a51ade21c7770.jar" />
+    </item>
+    <item
+        jar="/Users/elyssakellerman/libmuse_5.13.0/android/examples/TestLibMuseAndroid/app/libs/YouTubeAndroidPlayerApi-1.2.2/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/Users/elyssakellerman/libmuse_5.13.0/android/examples/TestLibMuseAndroid/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_60040240adbdec79c378f7e0acde932256458f9d.jar" />
+    </item>
+    <item
+        jar="/Users/elyssakellerman/libmuse_5.13.0/android/examples/TestLibMuseAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/elyssakellerman/libmuse_5.13.0/android/examples/TestLibMuseAndroid/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_2c0bdf63c670f1e28215fd67f25d7e66d23602fb.jar" />
+    </item>
+    <item
+        jar="/Users/elyssakellerman/libmuse_5.13.0/android/examples/TestLibMuseAndroid/app/libs/libmuse_android.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e0e7a9483598120cec51b3d74f2dc23ee5981588">
+        <dex dex="/Users/elyssakellerman/libmuse_5.13.0/android/examples/TestLibMuseAndroid/app/build/intermediates/pre-dexed/debug/libmuse_android_c834e6cca6ababc251ccaf772013d38e77420365.jar" />
+    </item>
+
+</items>

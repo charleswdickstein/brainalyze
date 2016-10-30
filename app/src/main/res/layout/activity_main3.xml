@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.choosemuse.example.libmuse.Main3Activity">
+
+    <Button
+        android:text="Rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="193dp"
+        android:id="@+id/rockbutton" />
+
+    <Button
+        android:text="Hip-Hop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="72dp"
+        android:layout_marginEnd="72dp"
+        android:id="@+id/hiphopbutton"
+        android:layout_alignBottom="@+id/rockbutton" />
+
+    <Button
+        android:text="Classical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hiphopbutton"
+        android:layout_alignLeft="@+id/rockbutton"
+        android:layout_alignStart="@+id/rockbutton"
+        android:layout_marginTop="39dp"
+        android:id="@+id/classicalbutton" />
+
+    <Button
+        android:text="World"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/classicalbutton"
+        android:layout_alignLeft="@+id/hiphopbutton"
+        android:layout_alignStart="@+id/hiphopbutton"
+        android:id="@+id/worldbutton" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:id="@+id/nameedittext"
+        android:layout_above="@+id/rockbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="91dp" />
+
+    <TextView
+        android:text="Welcome to Brainalyze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView3"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:layout_above="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginBottom="37dp" />
+</RelativeLayout>
